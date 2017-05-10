@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  localStorage.setItem("last_level", 'restaurant_finder')
 
   $('button').on('click', function() {
     $(this).parent().after( $(this).parent().data("address") )

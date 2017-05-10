@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  localStorage.setItem("last_level", 'pizza_restaurant')
+
   var address = '500 E Madison St Chicago';
   $('#restaurants').before(address);
 
